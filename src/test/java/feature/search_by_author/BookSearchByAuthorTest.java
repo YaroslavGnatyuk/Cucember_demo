@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
  * Created by asutp on 05.11.16.
  */
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/feature/search_by_author.feature")
+@CucumberOptions(features = "src/test/resources/feature/search_book/search_by_author.feature")
 public class BookSearchByAuthorTest {
 }
