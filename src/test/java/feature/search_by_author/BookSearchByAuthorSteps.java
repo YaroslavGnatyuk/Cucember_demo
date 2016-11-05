@@ -1,4 +1,4 @@
-package test_search_by_author;
+package feature.search_by_author;
 
 import cucumber.api.Format;
 import cucumber.api.java.en.Given;
@@ -17,7 +17,7 @@ import static org.junit.Assert.assertThat;
 /**
  * Created by asutp on 05.11.16.
  */
-public class BookSearchTest {
+public class BookSearchByAuthorSteps {
     Library library = new Library();
     List<Book> result = new ArrayList<>();
 

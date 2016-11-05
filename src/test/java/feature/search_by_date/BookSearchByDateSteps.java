@@ -1,4 +1,4 @@
-package test_search_by_date;
+package feature.search_by_date;
 import cucumber.api.Format;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -13,7 +13,7 @@ import java.util.List;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertThat;
 
-public class BookSearchSteps {
+public class BookSearchByDateSteps {
     Library library = new Library();
     List<Book> result = new ArrayList<>();
 
