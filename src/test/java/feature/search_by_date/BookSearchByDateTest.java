@@ -5,6 +5,6 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/feature/search_by_date.feature")
+@CucumberOptions(features = "src/test/resources/feature/search_book/search_by_date.feature")
 public class BookSearchByDateTest {
 }
