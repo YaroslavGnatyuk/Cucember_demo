@@ -1,11 +1,10 @@
 package test_search_by_date;
 
 import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
-import cucumber.api.junit.Cucumber;
-
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "D:\\Books\\prj\\Cucumber_demo\\src\\test\\resourсes\\search_book.feature")
+@CucumberOptions(features = "classpath:/src/main/test/resources/")
 public class BookSearchTest {
 }
